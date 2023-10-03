@@ -21,6 +21,8 @@
         z-index: 1;
         display: none;
         @include md {
+            border-radius: 50%;
+            border:1px solid white;
             display: block;
         }
         &:hover {
